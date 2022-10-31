@@ -1,0 +1,106 @@
+#hero {
+  height: 800px;
+  background-image: url("pinas.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#hero-content {
+  width: 900px;
+  background-color: rgba(51, 47, 47, 0.8);
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 8px;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0 auto;
+  position: relative;
+  top: 250px;
+  right: 20px;
+}
+#hero-content h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.9);
+  transition: all 0.5s ease;
+}
+
+#hero-content h1:hover {
+  background-color: rgb(213, 253, 14);
+  color: black;
+}
+
+#hero-content p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+#hero-content a {
+  text-decoration: none;
+  background-color: rgb(255, 251, 0);
+  padding: 12px 24px;
+  position: relative;
+  top: 10px;
+  color: black;
+  font-size: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+#hero-content a:hover {
+  background-color: rgb(249, 170, 0);
+  color: black;
+}
+
+#highlights {
+  padding: 24px;
+  background: linear-gradient(0deg, rgb(227, 225, 253), rgb(0, 136, 127));
+}
+
+#highlights h2 {
+    text-align: center;
+    font-size: 34px;
+    color: rgb(211, 248, 243);
+    text-transform: uppercase;
+    margin: 24px 0;
+    font-weight: bolder;
+
+}
+
+#destinations {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.destination p {
+    text-align: center;
+    font-size: 24px;
+    color: rgb(124, 123, 123);
+}
+
+.destination {
+  margin: 0 30px;
+  text-transform: uppercase;
+  
+}
+
+.destination img {
+  height: 200px;
+  width: 100%;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.destination strong {
+    color: rgb(0, 160, 117);
+}
+
+
+
+
+
